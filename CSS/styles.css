@@ -1,0 +1,129 @@
+body{
+  padding:0;
+    background-color:burlywood;
+}
+.navbar{
+  float: right;
+  position:relative;
+  border-radius: 30px;
+}
+
+.navbar ul {
+    list-style-type: none; ;
+    padding: 0;
+    /*display:inline-block;*/
+}
+
+.navbar li {
+    display:inline-block;
+    }
+  
+.navbar a {
+    color:#dddddd;
+    display: inline-block;
+    padding: 20px;
+    background-color:cadetblue;
+    text-decoration: none;
+    margin-top: 68px;
+    width: 262px;
+    font-size: large;
+    font-family: Georgia;
+    /*display:block;*/
+  }
+
+img{
+    width: 202px;
+    height:202px;
+    float:left;
+  }
+
+div img{
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-right:100px;
+    width:100%;
+    height:600px; 
+    }
+
+
+
+   /* .longPage{
+      height:3000px;
+      width:100%
+      background-color:blue;
+    }*/
+
+    .logIn{
+        border: none;
+        background-color:cadetblue;
+        color:#dddddd;
+        /*padding: 15px 60px;*/
+        height:50px;
+        width:200px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        /*float:right;*/
+      }
+
+      .divider{
+        width:10px;
+        display:inline-block;
+      }
+    
+      .floatRight{
+        float:right;
+      }
+
+      .ThinkBreatheMove{
+        width:100%;
+        /*height:500px;*/
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #dddddd;
+        float: left;
+      }
+
+      .Think{
+        margin-top: 50px;
+        width:400px;
+        height:500px;
+        background-color:cadetblue;
+        display:inline-block;
+        color: #dddddd;
+        text-align: center;
+        font-size: large;
+        padding:20px;
+      }
+      
+
+      .Breathe{
+        width:400px;
+        height:500px;
+        background-color: cadetblue;
+        display:inline-block;
+        color: #dddddd;
+        text-align: center;
+        padding:20px;
+        font-size: large;
+      }
+
+      .Move{
+        width:400px;
+        height:500px;
+        background-color:cadetblue;
+        display:inline-block;
+        color: #dddddd;
+        text-align: center;
+        padding:20px;
+        font-size: large;
+      }
+      .divider2{
+        width:42px;
+        display:inline-block;
+      }
+
+    
+  
