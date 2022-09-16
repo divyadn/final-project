@@ -1,129 +1,167 @@
-body{
-  padding:0;
-    background-color:burlywood;
-}
-.navbar{
-  float: right;
-  position:relative;
-  border-radius: 30px;
-}
-
-.navbar ul {
-    list-style-type: none; ;
-    padding: 0;
-    /*display:inline-block;*/
-}
-
-.navbar li {
-    display:inline-block;
-    }
-  
-.navbar a {
-    color:#dddddd;
-    display: inline-block;
-    padding: 20px;
-    background-color:cadetblue;
-    text-decoration: none;
-    margin-top: 68px;
-    width: 262px;
-    font-size: large;
-    font-family: Georgia;
-    /*display:block;*/
-  }
-
-img{
-    width: 202px;
-    height:202px;
-    float:left;
-  }
-
-div img{
-    margin-left: 0px;
-    margin-top: 30px;
-    margin-right:100px;
-    width:100%;
-    height:600px; 
-    }
-
-
-
-   /* .longPage{
-      height:3000px;
-      width:100%
-      background-color:blue;
-    }*/
-
-    .logIn{
-        border: none;
-        background-color:cadetblue;
-        color:#dddddd;
-        /*padding: 15px 60px;*/
-        height:50px;
-        width:200px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        /*float:right;*/
-      }
-
-      .divider{
-        width:10px;
-        display:inline-block;
-      }
-    
-      .floatRight{
-        float:right;
-      }
-
-      .ThinkBreatheMove{
-        width:100%;
-        /*height:500px;*/
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #dddddd;
-        float: left;
-      }
-
-      .Think{
-        margin-top: 50px;
-        width:400px;
-        height:500px;
-        background-color:cadetblue;
-        display:inline-block;
-        color: #dddddd;
-        text-align: center;
-        font-size: large;
-        padding:20px;
+    body{
+        padding:0;
+        background-color:burlywood;
       }
       
-
-      .Breathe{
-        width:400px;
-        height:500px;
-        background-color: cadetblue;
-        display:inline-block;
-        color: #dddddd;
-        text-align: center;
-        padding:20px;
-        font-size: large;
+      .navbar{
+        float: right;
+        position:relative;
+        /*border-radius: 30px;*/
       }
-
-      .Move{
-        width:400px;
-        height:500px;
-        background-color:cadetblue;
-        display:inline-block;
-        color: #dddddd;
-        text-align: center;
-        padding:20px;
-        font-size: large;
+      
+      .navbar ul {
+          list-style-type: none; ;
+          padding: 0;
       }
-      .divider2{
-        width:42px;
-        display:inline-block;
-      }
+      
+      .navbar li {
+          display:inline-block;
+          }
+      
+      .navbar a {
+          color:#dddddd;
+          display: inline-block;
+          padding: 15px;
+          background-color:cadetblue;
+          text-decoration: none;
+          margin-top: 80px;
+          width: 373px;
+          font-size: large;
+          font-family: Georgia;
+        }
+      
+      img{
+          width: 202px;
+          height:202px;
+          float:left;
+        }
 
+        .logIn{
+            border: none;
+            background-color:cadetblue;
+            color:#dddddd;
+            height:48px;
+            width:200px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
     
-  
+          .divider{
+            width:10px;
+            display:inline-block;
+          }
+    
+          .floatRight{
+            float:right;
+          }
+
+          .HeroImg img{
+            margin-left: 0px;
+            margin-top: 30px;
+            margin-right:100px;
+            width:100%;
+            height:600px;
+            display:inline-block;
+            vertical-align: top;
+          }
+
+          .fa-brands{
+            font-size:x-large;
+          }
+
+          .footerLogIn{
+
+              background: none!important;
+              border: none;
+              padding: 0!important;
+                /*optional*/
+                 font-family: arial, sans-serif;
+                 /*input has OS specific font-family*/
+                color:black;
+            text-decoration: underline;
+            cursor: pointer;
+
+          }
+
+          .ThinkBreatheMove{
+            width:100%;
+            /*height:500px;*/
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #dddddd;
+            float: left;
+          }
+    
+          .Think{
+            margin-top: 50px;
+            width:400px;
+            height:500px;
+            background-color:rgb(176, 156, 131);
+            display:inline-block;
+            color: #dddddd;
+            text-align: center;
+            font-size: large;
+            padding:20px;
+          }
+          
+    
+          .Breathe{
+            width:400px;
+            height:500px;
+            background-color:rgb(176, 156, 131);
+            display:inline-block;
+            color: #dddddd;
+            text-align: center;
+            padding:20px;
+            font-size: large;
+          }
+    
+          .Move{
+            width:400px;
+            height:500px;
+            background-color:rgb(176, 156, 131);
+            display:inline-block;
+            color: #dddddd;
+            text-align: center;
+            padding:20px;
+            font-size: large;
+          }
+          .divider2{
+            width:42px;
+            display:inline-block;
+          }
+/* F O R M */
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: cadetblue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+          }
+          
+          input[type=submit]:hover {
+            background-color: rgb(53, 92, 93);
+          }
+          
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+    
